@@ -52,8 +52,9 @@ export const Footer: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="pt-8 border-t border-white/10 text-center text-slate-400 text-sm">
-                    © 2026 SpeedShip. All rights reserved.
+                <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-2 text-slate-400 text-sm">
+                    <span>© 2026 SpeedShip. All rights reserved.</span>
+                    <Link to="/admin" className="hover:text-white transition-colors opacity-40 hover:opacity-100 text-xs">Admin</Link>
                 </div>
             </Container>
         </footer>
